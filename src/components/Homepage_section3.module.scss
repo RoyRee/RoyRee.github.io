@@ -1,0 +1,317 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: #000000ff;
+$color_type_1: rgb(0, 0, 0);
+$color_type_2: rgb(113, 113, 122);
+$color_type_3: rgb(226, 232, 240);
+$color_type_4: rgb(255, 255, 255);
+$color_type_5: rgb(37, 99, 235);
+$color_type_6: rgb(4, 7, 13);
+$color_type_7: rgb(82, 82, 91);
+
+$font_type_0: 600 35px/1.23 "Poppins", Helvetica, Arial, serif;
+$font_type_1: 800 30px/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type_2: 400 16px/1.23 "Montserrat", Helvetica, Arial, serif;
+$font_type_3: 600 14.40000057220459px/1.74 "Poppins", Helvetica, Arial, serif;
+$font_type_4: 400 14.40000057220459px/1.62 "Poppins", Helvetica, Arial, serif;
+$font_type_5: 400 12.600000381469727px/1.57 "Poppins", Helvetica, Arial, serif;
+$font_type_6: 600 11.700000762939453px/1.38 "Montserrat", Helvetica, Arial, serif;
+$font_type_7: 800 1em/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type_8: 1em/1.2 "Playfair Display", Helvetica, Arial, serif;
+
+.section3_layout {
+  position: relative;
+  height: 786px;
+}
+.section3 {
+  @include flex-column;
+}
+.group {
+  @include flex-column;
+}
+.group_layout1 {
+  position: relative;
+  flex-grow: 1;
+  width: 81.04%;
+  margin: 133px auto 77px;
+}
+.small_text_body {
+  @include h-center-content;
+  font: $font_type_5;
+  color: $color_type_2;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.small_text_body_layout {
+  position: absolute;
+  height: 20px;
+  bottom: -55px;
+  left: 400.5px;
+  width: 364px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout3 {
+  position: relative;
+}
+.group_layout {
+  position: relative;
+  width: 69.58%;
+  margin: 0px auto;
+}
+.block18 {
+  @include flex-column;
+  background-color: $color_type_5;
+  border-radius: 18px 18px 18px 18px;
+}
+.block18_layout {
+  position: absolute;
+  top: -72px;
+  height: 286px;
+  width: 1280px;
+  right: -234px;
+}
+.block19 {
+  @include flex-column;
+  background: var(--src) center center / cover no-repeat;
+}
+.block19_layout {
+  position: relative;
+  height: 286px;
+  width: 1280px;
+  min-width: 1280px;
+}
+.flex_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.hero_title1 {
+  @include h-center-content;
+  font: $font_type_0;
+  color: $color_type_4;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.hero_title1_layout {
+  position: relative;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  margin: 44px 0px 0px;
+}
+.flex__item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 267px;
+}
+.block20 {
+  @include flex-column;
+  border-radius: 8.100000381469727px 8.100000381469727px 8.100000381469727px 8.100000381469727px;
+}
+.block20_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.block21 {
+  @include flex-column;
+  background-color: $color_type_5;
+  border: 0.9000000357627869px solid rgb(212, 212, 216);
+  border-radius: 4.5px 4.5px 4.5px 4.5px;
+}
+.block21_layout {
+  position: relative;
+  height: 54px;
+  width: 267px;
+  min-width: 267px;
+}
+.text_body {
+  @include v-center-content;
+  @include font-face($font_type_4, $color_type_4, 0px);
+  width: 100%;
+  height: 100%;
+}
+.flex__spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 13px;
+}
+.flex__item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 266px;
+}
+.block22 {
+  @include flex-column;
+  border-radius: 8.100000381469727px 8.100000381469727px 8.100000381469727px 8.100000381469727px;
+}
+.block22_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.block23 {
+  @include flex-column;
+  background-color: $color_type_5;
+  border: 0.9000000357627869px solid rgb(212, 212, 216);
+  border-radius: 4.5px 4.5px 4.5px 4.5px;
+}
+.block23_layout {
+  position: relative;
+  height: 54px;
+  width: 266px;
+  min-width: 266px;
+}
+.flex__item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 253px;
+}
+.block24 {
+  @include flex-column;
+  background-color: $color_type_6;
+  border-radius: 8.100000381469727px 8.100000381469727px 8.100000381469727px 8.100000381469727px;
+}
+.block24_layout {
+  position: relative;
+  flex-grow: 1;
+}
+.block25 {
+  @include flex-column;
+}
+.block25_layout {
+  position: relative;
+  height: 26px;
+  width: 110px;
+  min-width: 110px;
+  margin: 14px 0px 0px 70px;
+}
+.text_body1 {
+  @include v-center-content;
+  justify-content: flex-end;
+  font: $font_type_3;
+  color: $color_type_4;
+  text-align: right;
+  letter-spacing: -0.18000000715255737px;
+}
+.text_body1_layout {
+  position: relative;
+  height: min-content;
+  min-width: 0px;
+  width: fit-content;
+  margin: 0px 0px;
+}
+.flex1_layout1 {
+  position: relative;
+  margin: 159px 0px 0px;
+}
+.flex__item3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 230px;
+}
+.big_title {
+  @include font-face($font_type_1, $color_type_1, 0px);
+}
+.big_title_box_layout {
+  position: relative;
+}
+.big_title_span0 {
+  font: $font_type_7;
+  color: $color_type_0;
+  font-style: normal;
+  letter-spacing: 0px;
+}
+.big_title_span1 {
+  font: $font_type_8;
+  color: $color_type_0;
+  font-style: normal;
+  letter-spacing: 0px;
+}
+.highlights7 {
+  @include font-face($font_type_2, $color_type_7, 0px);
+}
+.highlights7_layout {
+  position: relative;
+  margin: 26px 7px 0px 0px;
+}
+.image4 {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  object-fit: contain;
+  object-position: center top;
+}
+.image4_layout {
+  position: relative;
+  width: calc(100% - 7px);
+  margin: 26px 7px 0px 0px;
+}
+.flex__spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 192px;
+}
+.flex__item4 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 89px;
+}
+.flex_layout1 {
+  position: relative;
+  flex-grow: 1;
+  margin: 3px 0px 29px;
+}
+.small_text_body1 {
+  @include font-face($font_type_6, $color_type_6, 0.9000000357627869px);
+}
+.small_text_body1_layout {
+  position: relative;
+  margin: 0px 21px 0px 0px;
+}
+.small_paragraph_body {
+  @include font-face($font_type_5, $color_type_7, 0px);
+}
+.small_paragraph_body_layout {
+  position: relative;
+  margin: 26px 0px 0px;
+}
+.flex__spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 198px;
+}
+.flex__item5 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 123px;
+}
+.flex_layout2 {
+  position: relative;
+  flex-grow: 1;
+  margin: 3px 0px 69px;
+}
+.small_text_body1_layout1 {
+  position: relative;
+}
+.flex__spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 199px;
+}
+.flex__item6 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 136px;
+}
+.line1 {
+  background-color: $color_type_3;
+}
+.line1_layout {
+  position: relative;
+  height: 0px;
+  margin: 61px 1px 0px 0px;
+}
